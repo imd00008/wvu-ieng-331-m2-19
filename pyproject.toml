@@ -1,0 +1,17 @@
+[project]
+name = "ieng-331-project-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ian Donnen", email = "imd00008@mix.wvu.edu" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ieng-331-project-2 = "ieng_331_project_2:main"
+
+[build-system]
+requires = ["uv_build>=0.10.8,<0.11.0"]
+build-backend = "uv_build"
