@@ -1,13 +1,18 @@
 # Milestone 2: Python Pipeline
 
-**Team 19**: Ian Donnen, Audrey Doyle
+**Team 19**: Ian Donnen, Audrey Doyle, Rylee Lindermuth
+
+## Overview
+
+## Overview
+This repository contains an automated, parameterizable Python data pipeline developed to analyze the Olist e-commerce dataset. Managed via uv, the system performs pre-flight data validation, executes parameterized DuckDB SQL queries, and uses Polars to process dynamic command-line filters. The pipeline ultimately generates scalable business intelligence, outputting summary CSVs, machine-readable Parquet files, and interactive Altair visualizations.
 
 ## How to Run
 
 Instructions to run the pipeline from a fresh clone:
 
 ```bash
-git clone [https://github.com/imd00008/wvu-ieng-331-m2-19.git](https://github.com/imd00008/wvu-ieng-331-m2-19.git)
+git clone https://github.com/imd00008/wvu-ieng-331-m2-19.git
 cd wvu-ieng-331-m2-19
 uv sync
 # place olist.duckdb in the data/ directory
@@ -43,7 +48,7 @@ The pipeline runs a "Pre-Flight" check via `validation.py` before any SQL proces
 
 ## Analysis Summary
 
-Our analytical focus remains on the **Seller Performance Scorecard**. The data shows a massive revenue concentration in the São Paulo (SP) region, following a classic Pareto (80/20) distribution where a small number of "A-Class" sellers generate the majority of platform value. This pipeline enables Zelyria to dynamically segment these high-performing sellers across different timeframes and states to better prioritize logistics and vendor support.
+Our analytical focus remains on the **Seller Performance Scorecard** within the Olist marketplace. The data shows a massive revenue concentration in the São Paulo (SP) region, following a classic Pareto (80/20) distribution where a small number of "A-Class" sellers generate the majority of platform value. This automated pipeline provides a scalable analytical framework to dynamically segment these high-performing vendors across different timeframes and geographic states, enabling data-driven decisions for marketplace logistics.
 
 ## Limitations & Caveats
 
