@@ -3,8 +3,6 @@
 **Team 19**: Ian Donnen, Audrey Doyle, Rylee Lindermuth
 
 ## Overview
-
-## Overview
 This repository contains an automated, parameterizable Python data pipeline developed to analyze the Olist e-commerce dataset. Managed via uv, the system performs pre-flight data validation, executes parameterized DuckDB SQL queries, and uses Polars to process dynamic command-line filters. The pipeline ultimately generates scalable business intelligence, outputting summary CSVs, machine-readable Parquet files, and interactive Altair visualizations.
 
 ## How to Run
